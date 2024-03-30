@@ -23,9 +23,9 @@ async function hash(string: string) {
 const url = ref("");
 
 hash(props.mail)
-.then(
-  (hex: string) => url.value = `https://gravatar.com/avatar/${hex}"?d=identicon&s=${props.size}`
-);
+  .then(
+    (hex: string) => url.value = `https://gravatar.com/avatar/${hex}"?d=identicon&s=${props.size}`
+  );
 </script>
 
 <template>
