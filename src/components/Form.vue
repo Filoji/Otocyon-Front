@@ -3,7 +3,7 @@
 
 <template>
   <h1>Form basis</h1>
-  <form action="http://localhost:3000/account" method="POST">
+  <form action="http://localhost:3000/user" method="POST">
     <div>
       <label>Username</label><br />
       <input type="text" name="Username" />
